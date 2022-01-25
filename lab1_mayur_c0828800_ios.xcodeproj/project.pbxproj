@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8D656E279F9E38008B871D /* Tic-Tac-Toe-Board-letter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D656D279F9E38008B871D /* Tic-Tac-Toe-Board-letter.jpg */; };
 		A92EB7C52797738400E02AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92EB7C42797738400E02AA8 /* AppDelegate.swift */; };
 		A92EB7C72797738400E02AA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92EB7C62797738400E02AA8 /* SceneDelegate.swift */; };
 		A92EB7C92797738400E02AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92EB7C82797738400E02AA8 /* ViewController.swift */; };
@@ -16,8 +17,6 @@
 		A92EB7DC2797738600E02AA8 /* lab1_mayur_c0828800_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92EB7DB2797738600E02AA8 /* lab1_mayur_c0828800_iosTests.swift */; };
 		A92EB7E62797738600E02AA8 /* lab1_mayur_c0828800_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92EB7E52797738600E02AA8 /* lab1_mayur_c0828800_iosUITests.swift */; };
 		A92EB7E82797738600E02AA8 /* lab1_mayur_c0828800_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92EB7E72797738600E02AA8 /* lab1_mayur_c0828800_iosUITestsLaunchTests.swift */; };
-		A92EB7FB27977BF300E02AA8 /* 205-2056247_tic-tac-toe-board-png-steel-frame-semi.png in Resources */ = {isa = PBXBuildFile; fileRef = A92EB7FA27977BF300E02AA8 /* 205-2056247_tic-tac-toe-board-png-steel-frame-semi.png */; };
-		A92EB7FD27977C9000E02AA8 /* Tic-Tac-Toe-Board-letter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A92EB7FC27977C9000E02AA8 /* Tic-Tac-Toe-Board-letter.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B8D656D279F9E38008B871D /* Tic-Tac-Toe-Board-letter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Tic-Tac-Toe-Board-letter.jpg"; path = "../../Tic-Tac-Toe-Board-letter.jpg"; sourceTree = "<group>"; };
 		A92EB7C12797738400E02AA8 /* lab1_mayur_c0828800_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab1_mayur_c0828800_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92EB7C42797738400E02AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A92EB7C62797738400E02AA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,8 +51,6 @@
 		A92EB7E12797738600E02AA8 /* lab1_mayur_c0828800_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab1_mayur_c0828800_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92EB7E52797738600E02AA8 /* lab1_mayur_c0828800_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab1_mayur_c0828800_iosUITests.swift; sourceTree = "<group>"; };
 		A92EB7E72797738600E02AA8 /* lab1_mayur_c0828800_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab1_mayur_c0828800_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A92EB7FA27977BF300E02AA8 /* 205-2056247_tic-tac-toe-board-png-steel-frame-semi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "205-2056247_tic-tac-toe-board-png-steel-frame-semi.png"; path = "../../205-2056247_tic-tac-toe-board-png-steel-frame-semi.png"; sourceTree = "<group>"; };
-		A92EB7FC27977C9000E02AA8 /* Tic-Tac-Toe-Board-letter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Tic-Tac-Toe-Board-letter.jpeg"; path = "../../Tic-Tac-Toe-Board-letter.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				A92EB7C42797738400E02AA8 /* AppDelegate.swift */,
-				A92EB7FA27977BF300E02AA8 /* 205-2056247_tic-tac-toe-board-png-steel-frame-semi.png */,
-				A92EB7FC27977C9000E02AA8 /* Tic-Tac-Toe-Board-letter.jpeg */,
+				9B8D656D279F9E38008B871D /* Tic-Tac-Toe-Board-letter.jpg */,
 				A92EB7C62797738400E02AA8 /* SceneDelegate.swift */,
 				A92EB7C82797738400E02AA8 /* ViewController.swift */,
 				A92EB7CA2797738400E02AA8 /* Main.storyboard */,
@@ -237,10 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92EB7FB27977BF300E02AA8 /* 205-2056247_tic-tac-toe-board-png-steel-frame-semi.png in Resources */,
+				9B8D656E279F9E38008B871D /* Tic-Tac-Toe-Board-letter.jpg in Resources */,
 				A92EB7D12797738600E02AA8 /* LaunchScreen.storyboard in Resources */,
 				A92EB7CE2797738600E02AA8 /* Assets.xcassets in Resources */,
-				A92EB7FD27977C9000E02AA8 /* Tic-Tac-Toe-Board-letter.jpeg in Resources */,
 				A92EB7CC2797738400E02AA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

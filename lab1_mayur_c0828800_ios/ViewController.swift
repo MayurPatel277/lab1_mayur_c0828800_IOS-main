@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  lab1_mayur_c0828800_ios
 //
-//  Created by Pooja Mistry on 1/18/22.
+//  Created by Mayur Patel on 1/24/22.
 //
 
 import UIKit
@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     var nought = "0"
     var cross = "X"
     var board = [UIButton]()
+    var latestClick : UIButton?
     
     var scoreOfNought = 0
     var scoreOfCross = 0
@@ -36,6 +37,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var d2: UIButton!
     @IBOutlet weak var d1: UIButton!
     
+    @IBOutlet weak var noughtNoWin: UILabel!
+    @IBOutlet weak var crossNoWin: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         initBoard()
@@ -56,6 +59,7 @@ class ViewController: UIViewController {
     @IBAction func tapaction(_ sender: UIButton)
     {
         actionOnBoard(sender)
+        latestClick = sender
         
         if whoWIN(cross)
         {
@@ -71,6 +75,8 @@ class ViewController: UIViewController {
         {
             result(title: "This match is draw! good try though")
         }
+        crossNoWin.text = String(scoreOfCross)
+        noughtNoWin.text = String(scoreOfNought)
     }
     
     func result(title : String)
@@ -184,6 +190,27 @@ class ViewController: UIViewController {
             }
         }
     }
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        
+        if event?.subtype == UIEvent.EventSubtype.motionShake{
 
+            latestClick?.setTitle(nil, for: .normal)
+            
+        if FirstRound == Turn.cross
+        {
+            FirstRound = Turn.nought
+            label.text = nought
+        }
+        else if(FirstRound == Turn.nought)
+        {
+            FirstRound = Turn.cross
+            label.text = cross
+        }
+        currentRound = FirstRound
+        
+            
+    }
+//-------------------------------------------------------------------------
+    }
 }
 
